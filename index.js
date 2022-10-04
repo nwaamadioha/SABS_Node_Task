@@ -27,7 +27,7 @@ try {
   // Create new csv raw data
   const outputData = papa.unparse(outputCSVData, { header: true })
   // write new csv to file system
-  fs.writeFileSync('./output2.csv', outputData);
+  fs.writeFileSync('./output.csv', outputData);
 
 } catch (error) {
   console.error('An Error occured: ', object);
